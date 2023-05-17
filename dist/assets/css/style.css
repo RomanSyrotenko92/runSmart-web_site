@@ -43,12 +43,22 @@
     transition: 0.3s all;
 }
 
+.btn_main {
+    margin-top: 67px;
+    width: 303px;
+    height: 54px;
+    font-size: 16px;
+}
+
 .btn:hover {
     background: #b60000;
 }
 
 * {
     font-family: "Museo Sans" sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
@@ -60,6 +70,65 @@
     min-height: 650px;
     padding: 21px 0px 93px 0px;
     background: url(../images/bg/bg.jpg) center center/cover no-repeat;
+}
+
+.promo__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 90px;
+}
+
+.promo__header {
+    margin: 0;
+    font-weight: 900;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo__subheader {
+    margin-top: 17px;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo__icons {
+    margin-top: 60px;
+    width: 425px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo__icon {
+    width: 106px;
+    text-align: center;
+}
+
+.promo__icon-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.promo__link {
+    margin-top: 18px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.promo__link a {
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    color: #FFFFFF;
 }
 
 .header {
