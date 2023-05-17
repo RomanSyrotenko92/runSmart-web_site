@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Museo Sans";
+    src: url("../fonts/MuseoSansCyrl-300.eot");
+    src: url("../fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype");
+    src: url("../fonts/MuseoSansCyrl-300.woff") format("woff");
+    src: url("../fonts/MuseoSansCyrl-300.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Museo Sans";
+  src: url("../fonts/MuseoSansCyrl-500.eot");
+  src: url("../fonts/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/MuseoSansCyrl-500.woff") format("woff");
+  src: url("../fonts/MuseoSansCyrl-500.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "Museo Sans";
+  src: url("../fonts/MuseoSansCyrl-900.eot");
+  src: url("../fonts/MuseoSansCyrl-900.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/MuseoSansCyrl-900.woff") format("woff");
+  src: url("../fonts/MuseoSansCyrl-900.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+    font-family: "Museo Sans" sans-serif;
+}
+
+.btn {
+    padding: 12px 42px;
+    background: #C70101;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.btn:hover {
+    background: #b60000;
+}
