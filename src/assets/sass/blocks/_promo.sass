@@ -1,7 +1,7 @@
 .promo 
 	min-height: 650px
 	padding: 21px 0px 93px 0px
-	background: url(../images/bg/bg.jpg) center center/cover no-repeat
+	background: url(../images/bg/bg.jpg) center left/cover no-repeat
 	&__wrapper
 		display: flex
 		flex-direction: column
@@ -45,5 +45,43 @@
 			text-transform: uppercase
 			text-decoration-line: underline 
 			color: #FFFFFF 
+@media(max-width: $breakpoint992)
+	.promo__wrapper
+		padding: 0px 20px
+@media(max-width: $breakpoint768)
+	.promo
+		&__wrapper
+			align-items: center
+		&__header
+			font-size: 55px
+		&__subheader
+			font-size: 27px
+		&__icon
+			width: 100%
+		&-text
+			font-weight: 500 
+			font-size: 17px 
+@media(max-width: $breakpoint480)
+	.promo
+		&__wrapper
+			margin-top: 60px
+		&__header
+			font-size: 35px
+			text-align: center
+		&__subheader
+			font-size: 20px
+			text-align: center
+			line-height: 1.5
+		&__icons
+			margin-top: 20px
+			flex-direction: column
+			width: 100%
+		&__icon
+			width: 100px
+			margin: 20px 0
+			&-text
+				margin-top:	5px
+		
+			
 		
 

@@ -28,4 +28,36 @@
         display: flex
         flex-direction: column
         align-items: flex-end
-    
+@media(max-width: $breakpoint992)
+    .header
+        padding: 0 20px
+@media(max-width: $breakpoint768)
+    .header
+        flex-wrap: wrap
+        &__contacts
+            width: 100%
+            flex-direction: row
+            justify-content: flex-end
+            margin-top: 30px
+        &__phone
+            margin-right: 20px
+@media(max-width: $breakpoint480)
+     .header
+        flex-wrap: nowrap
+        flex-direction: column
+        &__official
+            margin-top: 30px
+            font-size: 16px
+            span
+                font-size: 20px
+        &__contacts
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            margin-top: 40px
+        &__phone
+            margin-right: 0px
+            margin-bottom: 20px
+            font-size: 21px
+        
+       
